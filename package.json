@@ -1,0 +1,54 @@
+{
+  "name": "abstract-object-storage",
+  "version": "1.0.1",
+  "description": "Utilities for Google Cloud Storage",
+  "main": "index.js",
+  "repository": "transitive-bullshit/abstract-object-storage",
+  "author": "Travis Fischer <travis@automagical.ai>",
+  "license": "MIT",
+  "keywords": [
+    "gcp",
+    "gcs",
+    "storage",
+    "bucket",
+    "upload",
+    "download",
+    "google cloud",
+    "object storage"
+  ],
+  "scripts": {
+    "test": "NODE_ENV=test mocha './{,!(node_modules)/**/}*.test.js'",
+    "test:watch": "NODE_ENV=test mocha './{,!(node_modules)/**/}*.test.js' --watch"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^1.1.1",
+    "debug": "^2.6.1",
+    "filter-object": "^2.1.0",
+    "mz": "^2.6.0",
+    "promisepipe": "^2.0.0",
+    "through2": "^2.0.3",
+    "to-camel-case": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mocha-standard": "^1.0.0",
+    "mock-fs": "^4.3.0",
+    "sinon": "^2.2.0",
+    "standard": "^10.0.1"
+  },
+  "standard": {
+    "globals": [
+      "after",
+      "afterEach",
+      "before",
+      "beforeEach",
+      "context",
+      "describe",
+      "it"
+    ]
+  }
+}
