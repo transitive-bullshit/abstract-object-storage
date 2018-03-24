@@ -1,4 +1,4 @@
-# object-storage
+# abstract-object-storage
 
 > Collection of useful utilities for working with [Google Cloud Storage](https://cloud.google.com/storage).
 
@@ -7,6 +7,8 @@ The goal is to eventually add support for AWS S3 as well.
 ## Installation
 
 ```
+npm install --save abstract-object-storage
+# or
 yarn add abstract-object-storage
 ```
 
