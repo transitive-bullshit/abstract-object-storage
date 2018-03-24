@@ -2,6 +2,8 @@
 
 > Collection of useful utilities for working with [Google Cloud Storage](https://cloud.google.com/storage).
 
+[![NPM](https://img.shields.io/npm/v/abstract-object-storage.svg)](https://www.npmjs.com/package/abstract-object-storage) [![Build Status](https://travis-ci.org/transitive-bullshit/abstract-object-storage.svg?branch=master)](https://travis-ci.org/transitive-bullshit/abstract-object-storage) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 The goal is to eventually add support for AWS S3 as well.
 
 ## Installation
