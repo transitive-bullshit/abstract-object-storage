@@ -1873,9 +1873,9 @@ progress@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
-promisepipe@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/promisepipe/-/promisepipe-2.0.0.tgz#57715b7ce4e35652b81c7d9d53727c367f35209d"
+promisepipe@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/promisepipe/-/promisepipe-2.1.1.tgz#c3046d608ad34dd635cc7ffd7e6d16ff7ac3cc83"
 
 pump@^1.0.0:
   version "1.0.2"

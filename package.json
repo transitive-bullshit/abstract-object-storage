@@ -1,6 +1,6 @@
 {
   "name": "abstract-object-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilities for Google Cloud Storage",
   "main": "index.js",
   "repository": "transitive-bullshit/abstract-object-storage",
@@ -28,7 +28,7 @@
     "debug": "^2.6.1",
     "filter-object": "^2.1.0",
     "mz": "^2.6.0",
-    "promisepipe": "^2.0.0",
+    "promisepipe": "2.1.1",
     "through2": "^2.0.3",
     "to-camel-case": "^1.0.0"
   },
