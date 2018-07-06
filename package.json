@@ -6,6 +6,7 @@
   "repository": "transitive-bullshit/abstract-object-storage",
   "author": "Travis Fischer <travis@automagical.ai>",
   "license": "MIT",
+  "reveal": true,
   "keywords": [
     "gcp",
     "gcs",

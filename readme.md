@@ -18,7 +18,7 @@ This module uses async await and therefore requires node >= 8.
 
 ## Usage
 
-```javascript
+```js
 process.env.GOOGLE_APPLICATION_CREDENTIALS = '<insert auth credentials here>'
 
 const storage = require('abstract-object-storage').defaults({
