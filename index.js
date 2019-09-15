@@ -13,7 +13,7 @@ function defaults (defaultOptions = { }) {
     }
   }
 
-  for (let method in methods) {
+  for (const method in methods) {
     const impl = methods[method]
     storage[method] = (...args) => {
       const resolvedArgs = args.map(opts => {
