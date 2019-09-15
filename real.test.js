@@ -9,7 +9,7 @@ if (!process.env.CI) {
   describe('object-storage real usage', () => {
     it('upload and download should work for realz', async () => {
       const storage = ObjectStorage.defaults({
-        bucket: 'automagical-media-prod'
+        bucket: 'saasify-uploads-prod'
       })
 
       await storage.uploadFile({
